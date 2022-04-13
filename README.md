@@ -3,7 +3,7 @@
 잘못된 부분을 발견하셨거나 참가를 해당 문서 작성에 참가를 원하신다면 이슈로 남겨주세요.   
 ## AWS CLI
 ### 입문
-- [AWS CLI란 무엇인가]()
+- [AWS CLI란 무엇인가](https://github.com/Ernstjunger-1914/aws-cli-informality-guide)
 - [AWS CLI 설치](https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/main/docs/install-guide/aws-cli-install.md)
 
 ### 활용
