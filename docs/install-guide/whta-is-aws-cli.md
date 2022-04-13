@@ -1,5 +1,7 @@
 # AWS CLI란 무엇인가
-![AWS CLI](https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/main/image/install/aws-cli.png "AWS CLI")   
+<p align="center" width="100%">
+   <img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/main/image/install/aws-cli.png">
+</p>
    
 AWS CLI는 CLI Shell 명령어를 사용하여 AWS 서비스를 관리할 수 있는 [오픈소스](https://github.com/aws/aws-cli) 도구이다.
 AWS CLI를 통해 터미널에서 브라우저로 AWS 콘솔에서 작업하는 것과 동일하게 기능을 구현할 수 있다.   
