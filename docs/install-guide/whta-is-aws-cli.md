@@ -1,4 +1,4 @@
-# AWS CLI란 무엇인가
+## AWS CLI란 무엇인가
 <p align="center" width="100%">
    <img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/main/image/install/aws-cli.png">
 </p>
