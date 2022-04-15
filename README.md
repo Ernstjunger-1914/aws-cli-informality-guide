@@ -19,3 +19,4 @@
 ## 참고자료
 ### 설치
 - [Installing or updating the latest version of the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#cliv2-windows-install)
+- [aws-shell](https://github.com/awslabs/aws-shell)
