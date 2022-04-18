@@ -58,6 +58,11 @@ AWS CLI가 정상적으로 설치되었는지 확인하기 위해 Command Prompt
 
 AWS CLI를 사용하기 위해 명령어 `aws configure`를 입력하여 엑세스 키의 ID와 비밀 엑세스 키를 붙여넣고 작업할 리전과 출력 형식을 입력해준다.   
 출력 형식은 json, table, text, yaml, yaml-stream이 있다.   
+그 후, 아래의 명령어로 AWS CLI로 현재 계정에서 EC2로 접근 가능한 리전을 확인한다.   
+명령어가 **그림 7**과 같이 결과를 잘 뱉으면 현재 계정으로 AWS CLI를 다룰 수 있다는 의미이다.   
+```
+aws ec2 describe-regions
+```
 
 <p align="center" width="100%">
     <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/docs/image/install/download-awscli2-windows_8.png"><br />
@@ -112,7 +117,42 @@ $ aws --version
 이번 항목에서는 위에서 소개했던 방식 이외에 AWS CLI를 다루는 방식들을 소개한다.   
 
 ### CloudShell
-CloudShell은 웹브라우저로 AWS 콘솔에 접근하여 직접 사용할 수 있다.   
+
+<p align="center" width="100%">
+    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/docs/image/install/aws-cloud-shell.png"><br />
+    그림 1. Cloud Shell
+</p>
+
+CloudShell은 웹브라우저로 AWS 콘솔에 접근하여 직접 사용할 수 있다.
 다만, 현재(2022. 04. 15 기준)는 버지니아 북부, 오레곤, 아일랜드, 도쿄 등 몇몇 리전에서만 사용이 가능한 서비스이다.   
-CloudShell은 AWS CLI2가 세팅되어 있는 상태라 별 다른 설정 없이 AWS CLI를 다룰 수 있다.   
-이 외에도 Python과 Node 런타임, Bash, PowerShell, git, ECS CLI, jq, npm, pip 등이 포함되어 있으며 향후 더 많은 기능이 제공될 예정이다.   
+CloudShell은 AWS CLI2가 세팅되어 있는 상태라 별 다른 설정 없이 AWS CLI를 다룰 수 있으며 Python과 Node 런타임, Bash, PowerShell, git, ECS CLI, jq, npm, pip 등이 포함되어 있으며 향후 더 많은 기능이 제공될 예정이다.   
+   
+이 외에 CloudShell에 대해서는 아래와 같이 간단히 정리해두었다.   
+> 스토리지 : `$HOME`에 저장된 파일은 Cloud Shell 호출 간에도 유지되지만 그 이외에 설치한 SW는 유지되지 않으며 용량은 리전당 1G로 제한된다.   
+>    
+> 요금 : 리전 당 최대 10개의 Shell을 동시에 사용했을 때 무료로 사용이 가능하며 Cloud Shell에서 AWS CLI로 작업을 하여도 Cloud Shell은 과금이 되지 않는다.  
+>    
+> 시간 초과 및 지속성 : 20분 동안 사용하지 않으면 세션이 만료된다.    
+>    
+> 네트워크 엑세스 : 세션은 인터넷 아웃바운드 연결을 생성이 가능하지만, 인바운드 연결은 불가능하며 세션은 private VPC 서브넷 내의 리소스에 접근할 수 없지만 이 기능은 단기 로드맵에 존재한다.   
+   
+
+<p align="center" width="100%">
+    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/docs/image/install/cloud-shell_1.png"><br />
+    그림 2. AWS Console
+</p>
+
+Cloud Shell을 사용하는 방법은 매우 간단하다.   
+우선 AWS Console에 로그인 후, Cloud Shell의 사용을 지원하는 리전에서 **그림 2**와 같이 우측 상단에 존재한다.   
+
+<p align="center" width="100%">
+    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/docs/image/install/cloud-shell_2.png"><br />
+    그림 3. AWS Cloud Shell
+</p>
+
+Cloud Shell는 AWS CLI가 기본으로 깔려있기 때문에 따로 세팅해줄 것은 거의 없다고 보면 된다.   
+입문자 중에 local에 AWS CLI 환경 세팅을 하기 어려워 하는 사람들이 쓰면 좋을거 같다.   
+필자는 AWS Console에서 작업 중이라 터미널을 키기 귀찮을 때 가끔 사용한다.   
+
+### AWS Shell
+<<AWS Shell 작성 예정>>
