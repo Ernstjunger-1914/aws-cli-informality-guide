@@ -1,13 +1,13 @@
 ## AWS CLI 설치
 이 문서의 가이드는 CLI 방식으로 엑세스 AWS에 엑세스가 가능한 IAM 계정이 존재한다는 것을 전재로 작성했다.   
-CLI 방식으로 AWS에 엑세스할 수 있는 계정이 없다면 [이 문서](https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/docs/docs/install-guide/create-iam-account.md)를 참고바란다.   
+CLI 방식으로 AWS에 엑세스할 수 있는 계정이 없다면 [이 문서](https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/main/docs/install-guide/create-iam-account.md)를 참고바란다.   
 
 ### Windows에 설치
 OS는 Windows 10으로 하여 작업했으니 Windows 11과는 다소 차이가 있을 수 있다.   
 우선 [이 페이지](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#cliv2-windows-install)에서 AWS CLI2 설치파일을 다운받는다.   
    
 <p align="center" width="100%">
-    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/docs/image/install/download-awscli2-windows_1.png"><br />
+    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/main/image/install/download-awscli2-windows_1.png"><br />
     그림 1. 설치파일 실행
 </p>
 
@@ -15,14 +15,14 @@ OS는 Windows 10으로 하여 작업했으니 Windows 11과는 다소 차이가 
 Next를 눌러 다음으로 넘어간다.  
 
 <p align="center" width="100%">
-    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/docs/image/install/download-awscli2-windows_2.png"><br />
+    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/main/image/install/download-awscli2-windows_2.png"><br />
     그림 2. 약관 동의
 </p>
 
 약관에 동의 후, 다음으로 넘어간다.   
 
 <p align="center" width="100%">
-    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/docs/image/install/download-awscli2-windows_3.png"><br />
+    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/main/image/install/download-awscli2-windows_3.png"><br />
     그림 3. 경로 지정
 </p>
 
@@ -30,21 +30,21 @@ AWS CLI가 설치되는 경로를 지정할 수 있는 항목이다.
 특별히 경로를 변경하고 싶다면 변경해주고 다음으로 넘어간다.   
 
 <p align="center" width="100%">
-    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/docs/image/install/download-awscli2-windows_4.png"><br />
+    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/main/image/install/download-awscli2-windows_4.png"><br />
     그림 4. 설치
 </p>
 
 마지막으로 설치를 눌러주면 AWS CLI의 설치가 시작된다.   
 
 <p align="center" width="100%">
-    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/docs/image/install/download-awscli2-windows_5.png"><br />
+    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/main/image/install/download-awscli2-windows_5.png"><br />
     그림 5. 설치 완료
 </p>
 
 설치가 완료되면 **그림 5**와 같이 설치 파일을 종료할 수 있다.   
 
 <p align="center" width="100%">
-    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/docs/image/install/download-awscli2-windows_6.png"><br />
+    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/main/image/install/download-awscli2-windows_6.png"><br />
     그림 6. 버전 확인
 </p>
 
@@ -52,7 +52,7 @@ AWS CLI가 정상적으로 설치되었는지 확인하기 위해 Command Prompt
 정상적으로 설치가 되었다면 **그림 6**과 같이 버전에 관한 정보를 확인할 수 있다.   
 
 <p align="center" width="100%">
-    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/docs/image/install/download-awscli2-windows_7.png"><br />
+    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/main/image/install/download-awscli2-windows_7.png"><br />
     그림 7. configure
 </p>
 
@@ -65,7 +65,7 @@ aws ec2 describe-regions
 ```
 
 <p align="center" width="100%">
-    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/docs/image/install/download-awscli2-windows_8.png"><br />
+    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/main/image/install/download-awscli2-windows_8.png"><br />
     그림 8. configure edit
 </p>
 
@@ -78,7 +78,7 @@ OS는 Ubuntu로 하였으니 Debian 계열 외의 리눅스 OS에선 다소 차�
 또한 순수 리눅스 환경에서 작업한 것이 아닌 WSL에서 작업을 진행했다.   
 
 <p align="center" width="100%">
-    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/docs/image/install/download-awscli2-linux_1.png"><br />
+    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/main/image/install/download-awscli2-linux_1.png"><br />
     그림 1. awscli 압축 파일 download
 </p>
 
@@ -92,7 +92,7 @@ $ unzip awscliv2.zip
 ```
    
 <p align="center" width="100%">
-    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/docs/image/install/download-awscli2-linux_2.png"><br />
+    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/main/image/install/download-awscli2-linux_2.png"><br />
     그림 2. 권한 부여 및 심볼 링크 생성
 </p>
 
@@ -119,7 +119,7 @@ $ aws --version
 ### CloudShell
 
 <p align="center" width="100%">
-    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/docs/image/install/aws-cloud-shell.png"><br />
+    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/main/image/install/aws-cloud-shell.png"><br />
     그림 1. Cloud Shell
 </p>
 
@@ -138,7 +138,7 @@ CloudShell은 AWS CLI2가 세팅되어 있는 상태라 별 다른 설정 없이
    
 
 <p align="center" width="100%">
-    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/docs/image/install/cloud-shell_1.png"><br />
+    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/main/image/install/cloud-shell_1.png"><br />
     그림 2. AWS Console
 </p>
 
@@ -146,7 +146,7 @@ Cloud Shell을 사용하는 방법은 매우 간단하다.
 우선 AWS Console에 로그인 후, Cloud Shell의 사용을 지원하는 리전에서 **그림 2**와 같이 우측 상단에 존재한다.   
 
 <p align="center" width="100%">
-    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/docs/image/install/cloud-shell_2.png"><br />
+    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/main/image/install/cloud-shell_2.png"><br />
     그림 3. AWS Cloud Shell
 </p>
 
