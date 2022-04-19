@@ -1,5 +1,5 @@
 ## AWS CLI 설치
-이 문서의 가이드는 CLI 방식으로 엑세스 AWS에 엑세스가 가능한 IAM 계정이 존재한다는 것을 전로 작성했다.   
+이 문서의 가이드는 CLI 방식으로 엑세스 AWS에 엑세스가 가능한 IAM 계정이 존재한다는 전제 하에 작성했다.   
 CLI 방식으로 AWS에 엑세스할 수 있는 계정이 없다면 [이 문서](https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/main/docs/install-guide/create-iam-account.md)를 참고바란다.   
 
 ### Windows에 설치
