@@ -188,3 +188,31 @@ pip를 통해 AWS Shell을 설치해준다.
 ```sh
 $ sudo pip install aws-shell
 ```
+
+<p align="center" width="100%">
+    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/main/image/install/download-aws-shell_3.png"><br />
+    그림 4. aws-shell 실행
+</p>
+
+설치가 완료되면 AWS Shell을 실행시켜준다.   
+실행하는 명령어는 `aws-shell`이다.   
+보통 터미널에서 AWS CLI를 사용하면 앞에 무조건 aws를 붙여야 하는데 AWS Shell에서는 앞에 aws를 붙일 필요가 없다.   
+즉 AWS Shell에서는 `[서비스 이름] [옵션 1] [옵션 2] .. `과 같이 명령어를 작성할 수 있다.   
+또한 자동 완성 기능 또한 편리하기에 유용하다.   
+필자는 명령어가 정상적으로 동작하는지 확인하기 위해 명령어 하나를 실행시켜 보았다.   
+
+<p align="center" width="100%">
+    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/main/image/install/download-aws-shell_4.png"><br />
+    그림 5. 명령어 동작 확인
+</p>
+
+명령어는 잘 동작한다.   
+필자는 이미 계정 정보를 설정해두어서 잘 동작하는 것이다.   
+
+<p align="center" width="100%">
+    <br /><br /><img src="https://github.com/Ernstjunger-1914/aws-cli-informality-guide/blob/main/image/install/download-aws-shell_5.png"><br />
+    그림 6. aws-shell configure
+</p>
+
+계정 정보의 설정을 하지 않고 AWS Shell만 설치한 사람은 **그림 6**과 같이 AWS Shell 내에서 명령어 `configure`를 통해 설정이 가능하다.   
+AWS Shell에서 나가려면 `F10`을 누르면 나갈 수 있다.   
