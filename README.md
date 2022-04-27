@@ -16,10 +16,15 @@
 ### 심화
 <<필터 옵션?에 대하여 다룰 예정>>
 
-## 참고자료
+## 참고 자료
 ### 입문
 - [aws-shell](https://github.com/awslabs/aws-shell)
 - [Installing or updating the latest version of the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#cliv2-windows-install)
 
 ### 활용
+- [AWS CLI examples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/aws-cli)
 - [Setting the AWS CLI output format](https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-output-format.html)
+
+### 심화
+- [aws cli + jq example](https://gist.github.com/hummus/8592113)
+- [Filtering AWS CLI output](https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-filter.html#cli-usage-filter-resources)
